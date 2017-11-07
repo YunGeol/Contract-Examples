@@ -7,6 +7,7 @@ import com.jayway.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;
 import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -28,6 +29,11 @@ public class MvcTest {
                 argThat(oldEnough())
             )
         ).willReturn(true);
+    }
+
+    @Test
+    public void test() {
+
     }
 
     private TypeSafeMatcher<PersonInfo> oldEnough() {
