@@ -1,8 +1,7 @@
-package com.example.ContractsOnTheProducerSide.controller;
+package com.example.provider.controller;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
 
 @Builder
 @Data

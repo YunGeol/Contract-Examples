@@ -1,8 +1,8 @@
 package com.example;
 
-import com.example.ContractsOnTheProducerSide.controller.PersonCheckingService;
-import com.example.ContractsOnTheProducerSide.controller.PersonInfo;
-import com.example.ContractsOnTheProducerSide.controller.ProducerController;
+import com.example.provider.controller.PersonCheckingService;
+import com.example.provider.controller.PersonInfo;
+import com.example.provider.controller.ProducerController;
 import com.jayway.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;

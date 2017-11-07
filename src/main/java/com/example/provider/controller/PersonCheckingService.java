@@ -1,4 +1,4 @@
-package com.example.ContractsOnTheProducerSide.controller;
+package com.example.provider.controller;
 
 public interface PersonCheckingService {
     boolean shouldGetBeer(PersonInfo personInfo);

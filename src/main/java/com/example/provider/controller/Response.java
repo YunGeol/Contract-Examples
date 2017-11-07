@@ -1,4 +1,4 @@
-package com.example.ContractsOnTheProducerSide.controller;
+package com.example.provider.controller;
 
 import lombok.Data;
 
