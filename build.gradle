@@ -40,3 +40,9 @@ contracts {
     baseClassForTests = 'com.example.MvcTest'
     // fully qualified name to a class that will be the base class for your generated test classes
 }
+
+test {
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+}
